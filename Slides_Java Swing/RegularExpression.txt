@@ -1,0 +1,12 @@
+Regular Expression\ (Pattern) 
+\d (digit): 0~9 => \D != \d
+\w (word chars): 0~9, a~2, A~2, -  => \W != \w
+\s(white space): space, \t, \n  => \S != \s
+. : any
+[] (range): [1-5], [1-5a-7A-D]
+
+Qualifiers:
+*: >=0, \d*
++: >=1, \w+
+
+Email:
