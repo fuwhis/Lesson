@@ -1,0 +1,21 @@
+public class BookList(){
+	private static final int size = 100; 
+	private Book [] arr; 
+	private int count; 
+
+public Book List() {
+	count = 0; 
+	arr = new Book[100]; 
+	}
+	
+	public void update(int code){
+		System.out.println("Input value: "); 
+
+		Scanner sc = new Scanner (System.in); 
+		//title , publisher, type
+
+		for(int i = 0; i < count; i++){
+			if(arr[i].getCode())
+		}
+	}
+}
